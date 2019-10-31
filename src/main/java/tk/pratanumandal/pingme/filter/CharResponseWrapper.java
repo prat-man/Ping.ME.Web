@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.filter;
+package tk.pratanumandal.pingme.filter;
 
 import java.io.CharArrayWriter;
 import java.io.IOException;

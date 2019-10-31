@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.app;
+package tk.pratanumandal.pingme.app;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import tk.pratanumandal.fts.util.FtsConstants;
+import tk.pratanumandal.pingme.util.FtsConstants;
 
 @SpringBootApplication
 @ComponentScan(basePackages={"tk.pratanumandal.fts"})

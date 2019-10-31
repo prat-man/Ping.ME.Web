@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.filesystem;
+package tk.pratanumandal.pingme.filesystem;
 
 import java.nio.file.Path;
 

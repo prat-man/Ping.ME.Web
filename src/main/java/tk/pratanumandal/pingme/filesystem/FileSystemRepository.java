@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.filesystem;
+package tk.pratanumandal.pingme.filesystem;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.Map;
 
 import org.apache.commons.lang3.SystemUtils;
 
-import tk.pratanumandal.fts.util.FtsConstants;
+import tk.pratanumandal.pingme.util.FtsConstants;
 
 public class FileSystemRepository implements FileSystemListener {
 	

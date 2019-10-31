@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.util;
+package tk.pratanumandal.pingme.util;
 
 import java.io.File;
 
@@ -6,7 +6,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
-import tk.pratanumandal.fts.bean.FtsConfig;
+import tk.pratanumandal.pingme.bean.FtsConfig;
 
 public class FtsConfigLoader {
 	

@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.app;
+package tk.pratanumandal.pingme.app;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,10 +14,10 @@ import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerFactory;
 import org.springframework.stereotype.Component;
 
-import tk.pratanumandal.fts.bean.FtsConfig;
-import tk.pratanumandal.fts.filesystem.FileSystemRepository;
-import tk.pratanumandal.fts.util.FtsConfigLoader;
-import tk.pratanumandal.fts.util.FtsConstants;
+import tk.pratanumandal.pingme.bean.FtsConfig;
+import tk.pratanumandal.pingme.filesystem.FileSystemRepository;
+import tk.pratanumandal.pingme.util.FtsConfigLoader;
+import tk.pratanumandal.pingme.util.FtsConstants;
 
 @Component
 public class FtsContainer implements WebServerFactoryCustomizer<ConfigurableServletWebServerFactory> {

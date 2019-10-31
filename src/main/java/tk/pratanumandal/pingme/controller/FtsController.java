@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.controller;
+package tk.pratanumandal.pingme.controller;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -40,13 +40,13 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.multipart.MultipartFile;
 
-import tk.pratanumandal.fts.bean.SandboxedFile;
-import tk.pratanumandal.fts.exception.ForbiddenException;
-import tk.pratanumandal.fts.exception.InvalidFileNameException;
-import tk.pratanumandal.fts.exception.ResourceNotFoundException;
-import tk.pratanumandal.fts.util.CommonUtils;
-import tk.pratanumandal.fts.util.FtsConstants;
-import tk.pratanumandal.fts.util.ZipFiles;
+import tk.pratanumandal.pingme.bean.SandboxedFile;
+import tk.pratanumandal.pingme.exception.ForbiddenException;
+import tk.pratanumandal.pingme.exception.InvalidFileNameException;
+import tk.pratanumandal.pingme.exception.ResourceNotFoundException;
+import tk.pratanumandal.pingme.util.CommonUtils;
+import tk.pratanumandal.pingme.util.FtsConstants;
+import tk.pratanumandal.pingme.util.ZipFiles;
 
 @Controller
 public class FtsController {

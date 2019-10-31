@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.util;
+package tk.pratanumandal.pingme.util;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import org.springframework.security.access.AccessDeniedException;
 
-import tk.pratanumandal.fts.filesystem.FileSystemRepository;
+import tk.pratanumandal.pingme.filesystem.FileSystemRepository;
 
 public class CommonUtils {
 	

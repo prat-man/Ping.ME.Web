@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.bean;
+package tk.pratanumandal.pingme.bean;
 
 import java.util.List;
 

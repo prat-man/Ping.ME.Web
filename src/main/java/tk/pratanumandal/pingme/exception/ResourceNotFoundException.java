@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.exception;
+package tk.pratanumandal.pingme.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

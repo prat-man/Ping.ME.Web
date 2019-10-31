@@ -1,12 +1,12 @@
-package tk.pratanumandal.fts.bean;
+package tk.pratanumandal.pingme.bean;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 
-import tk.pratanumandal.fts.util.CommonUtils;
-import tk.pratanumandal.fts.util.FtsConstants;
+import tk.pratanumandal.pingme.util.CommonUtils;
+import tk.pratanumandal.pingme.util.FtsConstants;
 
 public class SandboxedFile {
 

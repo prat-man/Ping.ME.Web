@@ -1,11 +1,11 @@
-package tk.pratanumandal.fts.util;
+package tk.pratanumandal.pingme.util;
 
 import java.io.File;
 import java.util.List;
 
 import javax.swing.JFileChooser;
 
-import tk.pratanumandal.fts.bean.FtsConfig.Credentials.Credential;
+import tk.pratanumandal.pingme.bean.FtsConfig.Credentials.Credential;
 
 public class FtsConstants {
 	

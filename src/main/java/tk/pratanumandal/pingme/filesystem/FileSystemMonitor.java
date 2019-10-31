@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.filesystem;
+package tk.pratanumandal.pingme.filesystem;
 
 import static java.nio.file.StandardWatchEventKinds.ENTRY_CREATE;
 import static java.nio.file.StandardWatchEventKinds.ENTRY_DELETE;

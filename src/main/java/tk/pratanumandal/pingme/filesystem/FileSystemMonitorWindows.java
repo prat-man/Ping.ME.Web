@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.filesystem;
+package tk.pratanumandal.pingme.filesystem;
 
 import static com.sun.nio.file.ExtendedWatchEventModifier.FILE_TREE;
 import static java.nio.file.StandardWatchEventKinds.*;

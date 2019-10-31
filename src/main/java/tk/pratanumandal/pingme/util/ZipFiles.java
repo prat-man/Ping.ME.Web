@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.util;
+package tk.pratanumandal.pingme.util;
 
 import java.io.File;
 import java.io.FileInputStream;
