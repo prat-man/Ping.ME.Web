@@ -1,4 +1,4 @@
-package tk.pratanumandal.fts.app;
+package tk.pratanumandal.pingme.app;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
