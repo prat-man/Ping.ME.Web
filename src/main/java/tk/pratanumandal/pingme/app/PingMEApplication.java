@@ -9,23 +9,23 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import tk.pratanumandal.pingme.util.FtsConstants;
+import tk.pratanumandal.pingme.util.PingMEConstants;
 
 @SpringBootApplication
-@ComponentScan(basePackages={"tk.pratanumandal.fts"})
-public class FtsApplication {
+@ComponentScan(basePackages={"tk.pratanumandal.pingme"})
+public class PingMEApplication {
 
 	public static void main(String[] args) {
 		if (args.length > 0) {
-			FtsConstants.CONFIG_FILE = new File(args[0]).getAbsolutePath();
+			PingMEConstants.CONFIG_FILE = new File(args[0]).getAbsolutePath();
 		}
 		
-		SpringApplication.run(FtsApplication.class);
+		SpringApplication.run(PingMEApplication.class);
 	}
 	
 	@Bean
 	public Logger getLogger() {
-		return LoggerFactory.getLogger(FtsApplication.class);
+		return LoggerFactory.getLogger(PingMEApplication.class);
 	}
 
 }

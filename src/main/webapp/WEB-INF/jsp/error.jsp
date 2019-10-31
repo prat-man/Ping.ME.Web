@@ -3,7 +3,7 @@
 <%@page trimDirectiveWhitespaces="true"%>
 <html lang="en">
 <head>
-	<title>File Transfer System | Error</title>
+	<title>Ping.ME | Error</title>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	

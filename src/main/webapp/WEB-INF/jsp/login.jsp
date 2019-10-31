@@ -4,7 +4,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html lang="en">
 <head>
-	<title>File Transfer System | Login</title>
+	<title>Ping.ME | Login</title>
 	
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	
@@ -13,7 +13,7 @@
 <body>
 
 	<div style="text-align: center; border: none;">
-		<h1>File Transfer System</h1>
+		<h1>Ping.ME</h1>
 		<h3 style="margin-top: -10px;">Pratanu Mandal</h3>
 	</div>
 	<hr>

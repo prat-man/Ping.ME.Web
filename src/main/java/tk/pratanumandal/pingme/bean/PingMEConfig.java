@@ -7,20 +7,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="fts-config")
+@XmlRootElement(name="pingme-config")
 @XmlAccessorType(XmlAccessType.FIELD)
-public class FtsConfig {
+public class PingMEConfig {
 	
 	private int port;
 	
-	private String sandbox;
-	
 	private Credentials credentials;
-	
-	@XmlElement(name="show-folder-size")
-	private String showFolderSize;
-	
-	private String delete;
 	
 	private String verbose;
 	
@@ -32,36 +25,12 @@ public class FtsConfig {
 		this.port = port;
 	}
 
-	public String getSandbox() {
-		return sandbox;
-	}
-
-	public void setSandbox(String sandbox) {
-		this.sandbox = sandbox;
-	}
-
 	public Credentials getCredentials() {
 		return credentials;
 	}
 
 	public void setCredentials(Credentials credentials) {
 		this.credentials = credentials;
-	}
-	
-	public String getShowFolderSize() {
-		return showFolderSize;
-	}
-
-	public void setShowFolderSize(String showFolderSize) {
-		this.showFolderSize = showFolderSize;
-	}
-	
-	public String getDelete() {
-		return delete;
-	}
-
-	public void setDelete(String delete) {
-		this.delete = delete;
 	}
 
 	public String getVerbose() {

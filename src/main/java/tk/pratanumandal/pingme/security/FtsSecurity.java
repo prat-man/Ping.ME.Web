@@ -9,22 +9,22 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
-import tk.pratanumandal.pingme.bean.FtsConfig.Credentials.Credential;
-import tk.pratanumandal.pingme.util.FtsConstants;
+import tk.pratanumandal.pingme.bean.PingMEConfig.Credentials.Credential;
+import tk.pratanumandal.pingme.util.PingMEConstants;
 
 @Configuration
 public class FtsSecurity extends WebSecurityConfigurerAdapter {
 
 	@Override  
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		if (FtsConstants.CREDENTIALS == null) {
+		if (PingMEConstants.CREDENTIALS == null) {
 			auth.inMemoryAuthentication()
 				.withUser("admin")
 				.password(passwordEncoder().encode("admin"))
 				.roles("USER");
 		}
 		else {
-			for (Credential credential : FtsConstants.CREDENTIALS) {
+			for (Credential credential : PingMEConstants.CREDENTIALS) {
 				auth.inMemoryAuthentication()
 					.withUser(credential.getUsername())
 					.password(passwordEncoder().encode(credential.getPassword()))
